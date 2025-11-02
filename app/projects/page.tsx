@@ -25,7 +25,6 @@ export default function Page() {
           {/* Left - Large Card (spans 2 columns) */}
           <div onClick={() => redirectHandler(projects[0].id)} className="md:col-span-2 relative rounded-3xl overflow-hidden h-96 group cursor-pointer">
             <img
-              src={projects[0].image}
               alt={projects[0].title}
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
@@ -48,7 +47,6 @@ export default function Page() {
           {/* Right - Medium Card (spans 1 column) */}
           <div onClick={() => redirectHandler(projects[1].id)} className="relative rounded-3xl overflow-hidden h-96 group cursor-pointer">
             <img
-              src={projects[1].image}
               alt={projects[1].title}
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
@@ -72,7 +70,6 @@ export default function Page() {
           {/* Left - Medium Card (spans 1 column) */}
           <div onClick={() => redirectHandler(projects[2].id)} className="relative rounded-3xl overflow-hidden h-96 group cursor-pointer">
             <img
-              src={projects[2].image}
               alt={projects[2].title}
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
@@ -95,7 +92,6 @@ export default function Page() {
           {/* Right - Large Card (spans 2 columns) */}
           <div onClick={() => redirectHandler(projects[3].id)} className="md:col-span-2 relative rounded-3xl overflow-hidden h-96 group cursor-pointer">
             <img
-              src={projects[3].image}
               alt={projects[3].title}
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
