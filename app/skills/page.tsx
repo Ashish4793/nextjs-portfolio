@@ -68,7 +68,7 @@ export default function Page() {
         "These skills provide me with a solid grounding in cloud fundamentals, enabling effective communication and collaboration on AWS-based projects and strategies.",
       gradient: "bg-gradient-to-b from-[#16a34a] via-[#4ade80] to-[#bbf7d0]",
       badge:
-        "https://digitalcloud.training/wp-content/uploads/2022/04/AWS-Cloud-Practitioner-image.png?update_image_id_1717928407",
+        "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/twitter_thumb_201604_image.png",
     },
   ];
 
